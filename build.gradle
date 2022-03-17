@@ -50,3 +50,5 @@ dependencies {
 application {
     mainClassName = 'com.quotesapi.ApplicationKt'
 }
+
+task stage(dependsOn: ['installDist'])
